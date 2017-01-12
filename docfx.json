@@ -20,7 +20,7 @@
             "corefx/src/**/src/**/*.csproj",
             "wcf/src/**/src/**/*.csproj",
             "coreclr/src/mscorlib/System.Private.CoreLib.csproj"
-          ],
+           ],
           "exclude": [ "**/bin/**", "**/obj/**"],
           "cwd": ".."
         }
@@ -40,7 +40,7 @@
           "files": ["**/*.md"],
           "src": "docs",
           "dest": "articles",
-          "exclude": ["**/includes/**"] 
+          "exclude": ["**/includes/**", "***/contributing.md"] 
         },
         {
           "files": ["*.md"],
